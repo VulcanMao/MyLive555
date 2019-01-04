@@ -1,0 +1,573 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\live\liveMedia\AC3AudioFileServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\AC3AudioRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\AC3AudioRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\AC3AudioStreamFramer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\ADTSAudioFileServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\ADTSAudioFileSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\AMRAudioFileServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\AMRAudioFileSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\AMRAudioFileSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\AMRAudioRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\AMRAudioRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\AMRAudioSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\AudioInputDevice.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\AudioRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\AVIFileSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\Base64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\BasicUDPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\BasicUDPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\BitVector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\ByteStreamFileSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\ByteStreamMemoryBufferSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\ByteStreamMultiFileSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\DeviceSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\DigestAuthentication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\DVVideoFileServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\DVVideoRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\DVVideoRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\DVVideoStreamFramer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\EBMLNumber.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\FileServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\FileSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\FramedFileSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\FramedFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\FramedSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\GenericMediaServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\GSMAudioRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H261VideoRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H263plusVideoFileServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H263plusVideoRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H263plusVideoRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H263plusVideoStreamFramer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H263plusVideoStreamParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H264or5VideoFileSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H264or5VideoRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H264or5VideoStreamDiscreteFramer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H264or5VideoStreamFramer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H264VideoFileServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H264VideoFileSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H264VideoRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H264VideoRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H264VideoStreamDiscreteFramer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H264VideoStreamFramer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H265VideoFileServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H265VideoFileSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H265VideoRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H265VideoRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H265VideoStreamDiscreteFramer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\H265VideoStreamFramer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\InputFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\JPEGVideoRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\JPEGVideoRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\JPEGVideoSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\Locale.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MatroskaDemuxedTrack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MatroskaFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MatroskaFileParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MatroskaFileServerDemux.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MatroskaFileServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\Media.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MediaSession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MediaSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MediaSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MP3ADU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MP3ADUdescriptor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MP3ADUinterleaving.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MP3ADURTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MP3ADURTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MP3ADUTranscoder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MP3AudioFileServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MP3FileSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MP3Internals.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MP3InternalsHuffman.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MP3InternalsHuffmanTable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MP3StreamState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MP3Transcoder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG1or2AudioRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG1or2AudioRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG1or2AudioStreamFramer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG1or2Demux.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG1or2DemuxedElementaryStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG1or2DemuxedServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG1or2FileServerDemux.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG1or2VideoFileServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG1or2VideoRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG1or2VideoRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG1or2VideoStreamDiscreteFramer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG1or2VideoStreamFramer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2IndexFromTransportStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamAccumulator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamFramer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamFromESSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamFromPESSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamIndexFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamMultiplexor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportStreamTrickModeFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG2TransportUDPServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG4ESVideoRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG4ESVideoRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG4GenericRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG4GenericRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG4LATMAudioRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG4LATMAudioRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG4VideoFileServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG4VideoStreamDiscreteFramer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEG4VideoStreamFramer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEGVideoStreamFramer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MPEGVideoStreamParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MultiFramedRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\MultiFramedRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\OggDemuxedTrack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\OggFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\OggFileParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\OggFileServerDemux.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\OggFileServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\OggFileSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\OnDemandServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\ourMD5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\OutputFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\PassiveServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\ProxyServerMediaSession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\QCELPAudioRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\QuickTimeFileSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\QuickTimeGenericRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\RTCP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\rtcp_from_spec.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\RTPInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\RTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\RTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\RTSPClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\RTSPCommon.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\RTSPRegisterSender.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\RTSPServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\RTSPServerRegister.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\RTSPServerSupportingHTTPStreaming.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\ServerMediaSession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\SimpleRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\SimpleRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\SIPClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\StreamParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\StreamReplicator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\T140TextRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\TCPStreamSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\TextRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\TheoraVideoRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\TheoraVideoRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\uLawAudioFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\VideoRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\VorbisAudioRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\VorbisAudioRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\VP8VideoRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\VP8VideoRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\VP9VideoRTPSink.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\VP9VideoRTPSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\WAVAudioFileServerMediaSubsession.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\live\liveMedia\WAVAudioFileSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\live\liveMedia\EBMLNumber.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\H263plusVideoStreamParser.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\MatroskaDemuxedTrack.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\MatroskaFileParser.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\MatroskaFileServerMediaSubsession.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\MP3ADUdescriptor.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\MP3Internals.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\MP3InternalsHuffman.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\MP3StreamState.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\MPEGVideoStreamParser.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\OggDemuxedTrack.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\OggFileParser.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\OggFileServerMediaSubsession.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\rtcp_from_spec.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\live\liveMedia\StreamParser.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
