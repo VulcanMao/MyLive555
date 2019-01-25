@@ -48,7 +48,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\GitHub\live\UsageEnvironment\include;D:\GitHub\live\liveMedia\include;D:\GitHub\live\groupsock\include;D:\GitHub\live\BasicUsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\live\UsageEnvironment\include;..\live\liveMedia\include;..\live\groupsock\include;..\live\BasicUsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -77,9 +77,9 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\live\UsageEnvironment\HashTable.cpp" />
-    <ClCompile Include="..\..\live\UsageEnvironment\strDup.cpp" />
-    <ClCompile Include="..\..\live\UsageEnvironment\UsageEnvironment.cpp" />
+    <ClCompile Include="..\live\UsageEnvironment\HashTable.cpp" />
+    <ClCompile Include="..\live\UsageEnvironment\strDup.cpp" />
+    <ClCompile Include="..\live\UsageEnvironment\UsageEnvironment.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

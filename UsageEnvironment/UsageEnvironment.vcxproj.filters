@@ -18,13 +18,13 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\live\UsageEnvironment\HashTable.cpp">
+    <ClCompile Include="..\live\UsageEnvironment\HashTable.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\live\UsageEnvironment\strDup.cpp">
+    <ClCompile Include="..\live\UsageEnvironment\strDup.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\live\UsageEnvironment\UsageEnvironment.cpp">
+    <ClCompile Include="..\live\UsageEnvironment\UsageEnvironment.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

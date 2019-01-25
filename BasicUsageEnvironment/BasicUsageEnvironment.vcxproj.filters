@@ -18,22 +18,22 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\live\BasicUsageEnvironment\BasicHashTable.cpp">
+    <ClCompile Include="..\live\BasicUsageEnvironment\BasicHashTable.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\live\BasicUsageEnvironment\BasicTaskScheduler.cpp">
+    <ClCompile Include="..\live\BasicUsageEnvironment\BasicTaskScheduler.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\live\BasicUsageEnvironment\BasicTaskScheduler0.cpp">
+    <ClCompile Include="..\live\BasicUsageEnvironment\BasicTaskScheduler0.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\live\BasicUsageEnvironment\BasicUsageEnvironment.cpp">
+    <ClCompile Include="..\live\BasicUsageEnvironment\BasicUsageEnvironment.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\live\BasicUsageEnvironment\BasicUsageEnvironment0.cpp">
+    <ClCompile Include="..\live\BasicUsageEnvironment\BasicUsageEnvironment0.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\live\BasicUsageEnvironment\DelayQueue.cpp">
+    <ClCompile Include="..\live\BasicUsageEnvironment\DelayQueue.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

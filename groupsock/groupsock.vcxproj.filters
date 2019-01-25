@@ -18,25 +18,25 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\live\groupsock\GroupEId.cpp">
+    <ClCompile Include="..\live\groupsock\GroupEId.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\live\groupsock\Groupsock.cpp">
+    <ClCompile Include="..\live\groupsock\Groupsock.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\live\groupsock\GroupsockHelper.cpp">
+    <ClCompile Include="..\live\groupsock\GroupsockHelper.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\live\groupsock\inet.c">
+    <ClCompile Include="..\live\groupsock\inet.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\live\groupsock\IOHandlers.cpp">
+    <ClCompile Include="..\live\groupsock\IOHandlers.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\live\groupsock\NetAddress.cpp">
+    <ClCompile Include="..\live\groupsock\NetAddress.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\live\groupsock\NetInterface.cpp">
+    <ClCompile Include="..\live\groupsock\NetInterface.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

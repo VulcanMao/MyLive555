@@ -48,7 +48,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\GitHub\live\UsageEnvironment\include;D:\GitHub\live\liveMedia\include;D:\GitHub\live\groupsock\include;D:\GitHub\live\BasicUsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\live\UsageEnvironment\include;..\live\liveMedia\include;..\live\groupsock\include;..\live\BasicUsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -77,13 +77,13 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\live\groupsock\GroupEId.cpp" />
-    <ClCompile Include="..\..\live\groupsock\Groupsock.cpp" />
-    <ClCompile Include="..\..\live\groupsock\GroupsockHelper.cpp" />
-    <ClCompile Include="..\..\live\groupsock\inet.c" />
-    <ClCompile Include="..\..\live\groupsock\IOHandlers.cpp" />
-    <ClCompile Include="..\..\live\groupsock\NetAddress.cpp" />
-    <ClCompile Include="..\..\live\groupsock\NetInterface.cpp" />
+    <ClCompile Include="..\live\groupsock\GroupEId.cpp" />
+    <ClCompile Include="..\live\groupsock\Groupsock.cpp" />
+    <ClCompile Include="..\live\groupsock\GroupsockHelper.cpp" />
+    <ClCompile Include="..\live\groupsock\inet.c" />
+    <ClCompile Include="..\live\groupsock\IOHandlers.cpp" />
+    <ClCompile Include="..\live\groupsock\NetAddress.cpp" />
+    <ClCompile Include="..\live\groupsock\NetInterface.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

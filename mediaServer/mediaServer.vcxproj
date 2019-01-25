@@ -53,12 +53,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>D:\GitHub\live\UsageEnvironment\include;D:\GitHub\live\liveMedia\include;D:\GitHub\live\groupsock\include;D:\GitHub\live\BasicUsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\live\UsageEnvironment\include;..\live\liveMedia\include;..\live\groupsock\include;..\live\BasicUsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>"D:\GitHub\MyLive555\Debug\BasicUsageEnvironment.lib";"D:\GitHub\MyLive555\Debug\groupsock.lib";"D:\GitHub\MyLive555\Debug\liveMedia.lib";"D:\GitHub\MyLive555\Debug\UsageEnvironment.lib";Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>"..\Debug\BasicUsageEnvironment.lib";"..\Debug\groupsock.lib";"..\Debug\liveMedia.lib";"..\Debug\UsageEnvironment.lib";Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -77,15 +77,16 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>"..\Debug\BasicUsageEnvironment.lib";"..\Debug\groupsock.lib";"..\Debug\liveMedia.lib";"..\Debug\UsageEnvironment.lib";Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\live\mediaServer\DynamicRTSPServer.cpp" />
-    <ClCompile Include="..\..\live\mediaServer\live555MediaServer.cpp" />
+    <ClCompile Include="..\live\mediaServer\DynamicRTSPServer.cpp" />
+    <ClCompile Include="..\live\mediaServer\live555MediaServer.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\live\mediaServer\DynamicRTSPServer.hh" />
-    <ClInclude Include="..\..\live\mediaServer\version.hh" />
+    <ClInclude Include="..\live\mediaServer\DynamicRTSPServer.hh" />
+    <ClInclude Include="..\live\mediaServer\version.hh" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
