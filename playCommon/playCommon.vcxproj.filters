@@ -18,6 +18,9 @@
     <ClCompile Include="..\live\testProgs\playCommon.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="..\live\testProgs\openRTSP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\live\testProgs\playCommon.hh">
