@@ -15,15 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\live\testProgs\playCommon.cpp">
+    <ClCompile Include="..\..\live\testProgs\openRTSP.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="..\live\testProgs\openRTSP.cpp">
+    <ClCompile Include="..\..\live\testProgs\playCommon.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\live\testProgs\playCommon.hh">
+    <ClInclude Include="..\..\live\testProgs\playCommon.hh">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

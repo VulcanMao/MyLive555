@@ -10,6 +10,9 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\live\testProgs\testOnDemandRTSPServer.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B3EEAFE4-2BE5-431B-BC2C-49AC8E251511}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -53,12 +56,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\live\BasicUsageEnvironment\include;..\live\groupsock\include;..\live\liveMedia\include;..\live\liveMedia\mediaServer;..\live\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\live\BasicUsageEnvironment\include;..\..\live\groupsock\include;..\..\live\liveMedia\include;..\..\live\liveMedia\mediaServer;..\..\live\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>"..\Debug\BasicUsageEnvironment.lib";"..\Debug\groupsock.lib";"..\Debug\liveMedia.lib";"..\Debug\UsageEnvironment.lib";Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>"..\..\Debug\BasicUsageEnvironment.lib";"..\..\Debug\groupsock.lib";"..\..\Debug\liveMedia.lib";"..\..\Debug\UsageEnvironment.lib";Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -81,9 +84,6 @@
       <AdditionalDependencies>"..\Debug\BasicUsageEnvironment.lib";"..\Debug\groupsock.lib";"..\Debug\liveMedia.lib";"..\Debug\UsageEnvironment.lib";Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\live\testProgs\testOnDemandRTSPServer.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

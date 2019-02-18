@@ -10,6 +10,13 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\live\testProgs\openRTSP.cpp" />
+    <ClCompile Include="..\..\live\testProgs\playCommon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\live\testProgs\playCommon.hh" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{58716AAD-6F9F-4CC5-9B5D-D2872F61A4DC}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -53,12 +60,12 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>..\live\BasicUsageEnvironment\include;..\live\groupsock\include;..\live\liveMedia\include;..\live\liveMedia\mediaServer;..\live\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\live\BasicUsageEnvironment\include;..\..\live\groupsock\include;..\..\live\liveMedia\include;..\..\live\liveMedia\mediaServer;..\..\live\UsageEnvironment\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>"..\Debug\BasicUsageEnvironment.lib";"..\Debug\groupsock.lib";"..\Debug\liveMedia.lib";"..\Debug\UsageEnvironment.lib";Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>"..\..\Debug\BasicUsageEnvironment.lib";"..\..\Debug\groupsock.lib";"..\..\Debug\liveMedia.lib";"..\..\Debug\UsageEnvironment.lib";Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -81,13 +88,6 @@
       <AdditionalDependencies>"..\Debug\BasicUsageEnvironment.lib";"..\Debug\groupsock.lib";"..\Debug\liveMedia.lib";"..\Debug\UsageEnvironment.lib";Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\live\testProgs\openRTSP.cpp" />
-    <ClCompile Include="..\live\testProgs\playCommon.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\live\testProgs\playCommon.hh" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

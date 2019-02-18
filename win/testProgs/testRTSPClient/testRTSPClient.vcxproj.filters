@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\live\testProgs\testRTSPClient.cpp">
+    <ClCompile Include="..\..\live\testProgs\testRTSPClient.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
